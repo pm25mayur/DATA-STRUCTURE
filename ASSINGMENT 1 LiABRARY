@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int id1;
+    cout << "Enter Book 1 ID: ";
+    cin >> id1;
+    string title1;
+    cout << "Enter Book 1 Title: ";
+    cin >> title1;
+    int id2;
+    cout << "Enter Book 2 ID: ";
+    cin >> id2;
+    string title2;
+    cout << "Enter Book 2 Title: ";
+    cin >> title2;
+    int id3;
+    cout << "Enter Book 3 ID: ";
+    cin >> id3;
+    string title3;
+    cout << "Enter Book 3 Title: ";
+    cin >> title3;
+    cout << "===== LIBRARY BOOKS =====" << endl;
+    cout << "Book's ID: " << id1 << endl;
+    cout << "Book's Title: " << title1 << endl
+         << endl;
+    cout << "Book's ID: " << id2 << endl;
+    cout << "Book's Title: " << title2 << endl
+         << endl;
+    cout << "Book's ID: " << id3 << endl;
+    cout << "Book's Title: " << title3 << endl
+         << endl;
+    return 0;
+}
